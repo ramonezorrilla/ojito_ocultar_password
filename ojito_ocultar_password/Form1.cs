@@ -32,7 +32,7 @@ namespace ojito_ocultar_password
                 return Image.FromStream(ms);
             }
         }
-
+        //Aqui precargo el ojito para que se pueda utilizar desde que se compila el formulario
         private void Form1_Load(object sender, EventArgs e)
         {
             // Oculta la contraseña por defecto
